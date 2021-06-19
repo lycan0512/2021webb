@@ -84,5 +84,5 @@ def gonaver():
         return '당신이 검색한 키워드(POST)<br>{}입니다'.format(search)
 
 
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+#    app.run(debug=True)
