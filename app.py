@@ -47,7 +47,7 @@ def login():
         else:
         # 아이디 패스워드 확인
             return "아이디 패스워드 확인"
-    
+
 
 @app.route('/action_page', methods=['GET', 'POST'])
 def action_page():
@@ -86,3 +86,4 @@ def gonaver():
 
 #if __name__ == '__main__':
 #    app.run(debug=True)
+
